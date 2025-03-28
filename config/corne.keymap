@@ -13,7 +13,7 @@
         compatible = "zmk,combos";
 
         Fun {
-            bindings = <&mo 0>;
+            bindings = <&mo 3>;
             key-positions = <40 37>;
         };
     };
