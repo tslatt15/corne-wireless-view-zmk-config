@@ -77,7 +77,7 @@
             bindings = <
 &none  &none  &none  &none   &none   &none     &kp LC(C)  &kp LC(V)       &kp LC(X)       &none         &none            &none
 &none  &none  &none  &none   &none   &none     &kp LC(Z)  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
-&none  &none  &none  &none   &none   &none     &none      &none           &none           &none         &none            &none
+&none  &none  &none  &none   &none   &none     &none      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none
                      &trans  &trans  &trans    &mkp LCLK  &mkp RCLK       &mkp MCLK
             >;
 
