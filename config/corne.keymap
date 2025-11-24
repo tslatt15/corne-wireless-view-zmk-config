@@ -44,10 +44,10 @@
 
             display-name = "Num";
             bindings = <
-&trans  &kp N1     &kp N2     &kp N3     &kp N4     &kp N5           &kp N6          &kp N7                  &kp N8       &kp N9             &kp N0  &kp BSPC
-&trans  &kp HOME   &kp END    &kp INS    &kp DEL    &kp PAGE_UP      &kp LG(LC(D))   &kp LG(LC(LEFT_ARROW))  &kp LG(TAB)  &kp LG(LC(RIGHT))  &none   &none
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp PAGE_DOWN    &kp LG(LC(F4))  &none                   &none        &trans             &none   &none
-                              &trans     &trans     &trans           &trans          &trans                  &trans
+&trans  &kp N1     &kp N2     &kp N3     &kp N4     &kp N5           &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC
+&trans  &kp HOME   &kp END    &kp INS    &kp DEL    &kp PAGE_UP      &none   &none   &none   &none   &none   &none
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp PAGE_DOWN    &none   &none   &none   &trans  &none   &none
+                              &trans     &trans     &trans           &trans  &trans  &trans
             >;
         };
 
@@ -60,9 +60,9 @@
 
             display-name = "Symbol";
             bindings = <
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &none     &none   &none     &none     &none        &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &none     &none   &none     &none     &none        &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR       &kp BSPC
+&trans  &none     &none   &none     &none     &none        &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp PIPE       &kp GRAVE
+&trans  &none     &none   &none     &none     &none        &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp BACKSLASH  &kp TILDE
                           &trans    &trans    &trans       &trans     &trans     &trans
             >;
         };
@@ -70,7 +70,7 @@
         Func_Nav_Layer {
             display-name = "Fun/Nav";
             bindings = <
-&trans  &none  &kp F1  &kp F2  &kp F3  &kp F10    &none   &none           &kp UP_ARROW    &none      &none  &none
+&trans  &none  &kp F1  &kp F2  &kp F3  &kp F10    &none   &none           &kp UP_ARROW    &none      &none  &kp BACKSPACE
 &trans  &none  &kp F4  &kp F5  &kp F6  &kp F11    &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none  &none
 &trans  &none  &kp F7  &kp F8  &kp F9  &kp F12    &none   &none           &none           &none      &none  &kp RALT
                        &trans  &trans  &trans     &trans  &trans          &trans
