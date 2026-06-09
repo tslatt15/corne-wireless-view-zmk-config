@@ -37,7 +37,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        default_layer_qwerty {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
