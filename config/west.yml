@@ -1,17 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url: https://github.com/zmkfirmware
-    - name: dsifry
-      url: https://github.com/dsifry
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3 # Crucial: Keeps your firmware on the stable v0.3 track
+      revision: v0.3
       import: app/west.yml
-    - name: nice-view-mod
-      remote: dsifry
-      revision: main
   self:
     path: config
-
