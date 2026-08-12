@@ -1,9 +1,9 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware/zmk
+      url: https://github.com/zmkfirmware/zmk
     - name: dsifry #new entry
-      url-base: https://github.com/dsifry #new entry
+      url: https://github.com/dsifry #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
